@@ -1,0 +1,1510 @@
+[
+    {
+        "index": 1,
+        "char": "赵",
+        "char_raw": "赵",
+        "pinyin": [
+            "Chao",
+            "Chew",
+            "Chio",
+            "Chiu",
+            "Cho",
+            "Chow",
+            "Jo",
+            "Teoh",
+            "Tiew",
+            "Trieu",
+            "Zhao"
+        ]
+    },
+    {
+        "index": 2,
+        "char": "钱",
+        "char_raw": "钱",
+        "pinyin": [
+            "Chen",
+            "Chien",
+            "Chin",
+            "Chun",
+            "Joen",
+            "Qian",
+            "Tien",
+            "Zee"
+        ]
+    },
+    {
+        "index": 3,
+        "char": "孙",
+        "char_raw": "孙",
+        "pinyin": [
+            "Shun",
+            "Son",
+            "Song",
+            "Soon",
+            "Suen",
+            "Sun",
+            "Ton"
+        ]
+    },
+    {
+        "index": 4,
+        "char": "李",
+        "char_raw": "李",
+        "pinyin": [
+            "Lee",
+            "Lei",
+            "Li",
+            "Ly",
+            "Rhee",
+            "Yi"
+        ]
+    },
+    {
+        "index": 5,
+        "char": "周",
+        "char_raw": "周",
+        "pinyin": [
+            "Chao",
+            "Chau",
+            "Cheu",
+            "Chew",
+            "Chiew",
+            "Chou",
+            "Chow",
+            "Chu",
+            "Ju",
+            "Zhou"
+        ]
+    },
+    {
+        "index": 6,
+        "char": "吴",
+        "char_raw": "吴",
+        "pinyin": [
+            "Goh",
+            "Ng",
+            "Ngo",
+            "Ngu",
+            "Oh",
+            "Wu"
+        ]
+    },
+    {
+        "index": 7,
+        "char": "郑",
+        "char_raw": "郑",
+        "pinyin": [
+            "Chang",
+            "Cheang",
+            "Cheng",
+            "Chiang",
+            "Chin",
+            "Ching",
+            "Chung",
+            "Tang",
+            "Tay",
+            "Tee",
+            "Teh",
+            "Tey",
+            "Trinh",
+            "Zheng"
+        ]
+    },
+    {
+        "index": 8,
+        "char": "王",
+        "char_raw": "王",
+        "pinyin": [
+            "Bong",
+            "Heng",
+            "Ng",
+            "Ong",
+            "Vong",
+            "Vuong",
+            "Wang",
+            "Wong"
+        ]
+    },
+    {
+        "index": 9,
+        "char": "冯",
+        "char_raw": "冯",
+        "pinyin": [
+            "Feng",
+            "Fong",
+            "Foong",
+            "Fung",
+            "Phung",
+            "Pung"
+        ]
+    },
+    {
+        "index": 10,
+        "char": "陈",
+        "char_raw": "陈",
+        "pinyin": [
+            "Chan",
+            "Chen",
+            "Chin",
+            "Jin",
+            "Sin",
+            "Tan",
+            "Tang",
+            "Ting",
+            "Tran"
+        ]
+    },
+    {
+        "index": 11,
+        "char": "褚",
+        "char_raw": "褚",
+        "pinyin": [
+            "Chu",
+            "Toh",
+            "Too"
+        ]
+    },
+    {
+        "index": 12,
+        "char": "卫",
+        "char_raw": "卫",
+        "pinyin": [
+            "Oui",
+            "Ui",
+            "Vi",
+            "Wai",
+            "Wee",
+            "Wei"
+        ]
+    },
+    {
+        "index": 13,
+        "char": "蒋",
+        "char_raw": "蒋",
+        "pinyin": [
+            "Chang",
+            "Cheong",
+            "Cheung",
+            "Chiang",
+            "Chiong",
+            "Jang",
+            "Jiang",
+            "Tuong"
+        ]
+    },
+    {
+        "index": 14,
+        "char": "沈",
+        "char_raw": "沈",
+        "pinyin": [
+            "Sam",
+            "Shen",
+            "Shim",
+            "Shum",
+            "Shun",
+            "Sim",
+            "Sum"
+        ]
+    },
+    {
+        "index": 15,
+        "char": "韩",
+        "char_raw": "韩",
+        "pinyin": [
+            "Han",
+            "Hon",
+            "Hong"
+        ]
+    },
+    {
+        "index": 16,
+        "char": "杨",
+        "char_raw": "杨",
+        "pinyin": [
+            "Duong",
+            "Eow",
+            "Ieong",
+            "Yang",
+            "Yeo",
+            "Yeoh",
+            "Yeong",
+            "Yeung",
+            "Yew",
+            "Yong"
+        ]
+    },
+    {
+        "index": 17,
+        "char": "朱",
+        "char_raw": "朱",
+        "pinyin": [
+            "Chau",
+            "Choo",
+            "Chu",
+            "Jee",
+            "Jeh",
+            "Joo",
+            "Zhu"
+        ]
+    },
+    {
+        "index": 18,
+        "char": "秦",
+        "char_raw": "秦",
+        "pinyin": [
+            "Ch'ng",
+            "Chin",
+            "Chun",
+            "Jin",
+            "Qin",
+            "Tan"
+        ]
+    },
+    {
+        "index": 19,
+        "char": "尤",
+        "char_raw": "尤",
+        "pinyin": [
+            "Iao",
+            "Vuu",
+            "Yau",
+            "Yew",
+            "You",
+            "Yu"
+        ]
+    },
+    {
+        "index": 20,
+        "char": "许",
+        "char_raw": "许",
+        "pinyin": [
+            "Hee",
+            "Heo",
+            "Hii",
+            "Hoi",
+            "Hoo",
+            "Hooi",
+            "Hsu",
+            "Hu",
+            "Huh",
+            "Hui",
+            "Khaw",
+            "Khoo",
+            "Khor",
+            "Khow",
+            "Khu",
+            "Koh",
+            "Xu"
+        ]
+    },
+    {
+        "index": 21,
+        "char": "何",
+        "char_raw": "何",
+        "pinyin": [
+            "Ha",
+            "He",
+            "Ho",
+            "Hoh",
+            "Hor"
+        ]
+    },
+    {
+        "index": 22,
+        "char": "吕",
+        "char_raw": "吕",
+        "pinyin": [
+            "La",
+            "Lee",
+            "Lei",
+            "Loh",
+            "Loi",
+            "Lu",
+            "Lui",
+            "Ryeo",
+            "Yeo"
+        ]
+    },
+    {
+        "index": 23,
+        "char": "施",
+        "char_raw": "施",
+        "pinyin": [
+            "See",
+            "Shi",
+            "Shih",
+            "Si",
+            "Sih",
+            "Sii",
+            "Sze"
+        ]
+    },
+    {
+        "index": 24,
+        "char": "张",
+        "char_raw": "张",
+        "pinyin": [
+            "Chang",
+            "Cheong",
+            "Cheung",
+            "Chong",
+            "Jang",
+            "Teo",
+            "Teoh",
+            "Tiong",
+            "Truong",
+            "Zhang"
+        ]
+    },
+    {
+        "index": 25,
+        "char": "孔",
+        "char_raw": "孔",
+        "pinyin": [
+            "Gong",
+            "Hong",
+            "Hung",
+            "Khong",
+            "Kong",
+            "Kung"
+        ]
+    },
+    {
+        "index": 26,
+        "char": "曹",
+        "char_raw": "曹",
+        "pinyin": [
+            "Cao",
+            "Chao",
+            "Cheng",
+            "Cho",
+            "Choo",
+            "Chou",
+            "Chu",
+            "Jo",
+            "Tao",
+            "Tsao",
+            "Tso"
+        ]
+    },
+    {
+        "index": 27,
+        "char": "严",
+        "char_raw": "严",
+        "pinyin": [
+            "Im",
+            "Nghiem",
+            "Ngim",
+            "Yam",
+            "Yan",
+            "Yen",
+            "Yim"
+        ]
+    },
+    {
+        "index": 28,
+        "char": "华",
+        "char_raw": "华",
+        "pinyin": [
+            "Hoa",
+            "Hua",
+            "Wa",
+            "Wah",
+            "Wha"
+        ]
+    },
+    {
+        "index": 29,
+        "char": "金",
+        "char_raw": "金",
+        "pinyin": [
+            "Chin",
+            "Jin",
+            "Kam",
+            "Kim",
+            "King"
+        ]
+    },
+    {
+        "index": 30,
+        "char": "魏",
+        "char_raw": "魏",
+        "pinyin": [
+            "Gui",
+            "Ngai",
+            "Ngui",
+            "Nguy",
+            "Oui",
+            "Ui",
+            "Wei",
+            "Woi"
+        ]
+    },
+    {
+        "index": 31,
+        "char": "陶",
+        "char_raw": "陶",
+        "pinyin": [
+            "Dao",
+            "Do",
+            "Tao",
+            "Tho",
+            "To",
+            "Toh",
+            "Too",
+            "Tou"
+        ]
+    },
+    {
+        "index": 32,
+        "char": "姜",
+        "char_raw": "姜",
+        "pinyin": [
+            "Chiang",
+            "Gang",
+            "Giang",
+            "Jiang",
+            "Kang",
+            "Keong",
+            "Keung",
+            "Khiang",
+            "Kiang"
+        ]
+    },
+    {
+        "index": 33,
+        "char": "戚",
+        "char_raw": "戚",
+        "pinyin": [
+            "Chek",
+            "Cheok",
+            "Chi",
+            "Chik",
+            "Qi"
+        ]
+    },
+    {
+        "index": 34,
+        "char": "谢",
+        "char_raw": "谢",
+        "pinyin": [
+            "Che",
+            "Cheah",
+            "Chia",
+            "Chiah",
+            "Hsieh",
+            "Sa",
+            "Seah",
+            "See",
+            "Sia",
+            "Ta",
+            "Tay",
+            "Tse",
+            "Xie"
+        ]
+    },
+    {
+        "index": 35,
+        "char": "邹",
+        "char_raw": "邹",
+        "pinyin": [
+            "Chao",
+            "Chau",
+            "Chew",
+            "Chou",
+            "Chow",
+            "Chu",
+            "Tsou",
+            "Zou"
+        ]
+    },
+    {
+        "index": 36,
+        "char": "喻",
+        "char_raw": "喻",
+        "pinyin": [
+            "U",
+            "Yho",
+            "You",
+            "Yu",
+            "Yuh"
+        ]
+    },
+    {
+        "index": 37,
+        "char": "柏",
+        "char_raw": "柏",
+        "pinyin": [
+            "Bai",
+            "Pai",
+            "Pak"
+        ]
+    },
+    {
+        "index": 38,
+        "char": "水",
+        "char_raw": "水",
+        "pinyin": [
+            "Shu",
+            "Shui",
+            "Soi",
+            "Sui",
+            "Tshui"
+        ]
+    },
+    {
+        "index": 39,
+        "char": "窦",
+        "char_raw": "窦",
+        "pinyin": [
+            "Dou",
+            "Tao",
+            "Tau",
+            "Tou"
+        ]
+    },
+    {
+        "index": 40,
+        "char": "章",
+        "char_raw": "章",
+        "pinyin": [
+            "Chang",
+            "Cheong",
+            "Cheung",
+            "Chong",
+            "Teo",
+            "Tiong",
+            "Tong",
+            "Zhang"
+        ]
+    },
+    {
+        "index": 41,
+        "char": "云",
+        "char_raw": "云",
+        "pinyin": [
+            "Wan",
+            "Woon",
+            "Wun",
+            "Yun",
+            "Yung"
+        ]
+    },
+    {
+        "index": 42,
+        "char": "苏",
+        "char_raw": "苏",
+        "pinyin": [
+            "Saw",
+            "So",
+            "Soh",
+            "Soo",
+            "Sou",
+            "Su",
+            "To"
+        ]
+    },
+    {
+        "index": 43,
+        "char": "潘",
+        "char_raw": "潘",
+        "pinyin": [
+            "Ban",
+            "Pan",
+            "Pang",
+            "Phan",
+            "Phang",
+            "Phua",
+            "Poon",
+            "Pun"
+        ]
+    },
+    {
+        "index": 44,
+        "char": "葛",
+        "char_raw": "葛",
+        "pinyin": [
+            "Gal",
+            "Ge",
+            "Ko",
+            "Kot"
+        ]
+    },
+    {
+        "index": 45,
+        "char": "奚",
+        "char_raw": "奚",
+        "pinyin": [
+            "Hae",
+            "Hai",
+            "Hsi",
+            "Kai",
+            "Xi"
+        ]
+    },
+    {
+        "index": 46,
+        "char": "范",
+        "char_raw": "范",
+        "pinyin": [
+            "Bum",
+            "Fam",
+            "Fan",
+            "Fang",
+            "Fung",
+            "Hwang",
+            "Pham"
+        ]
+    },
+    {
+        "index": 47,
+        "char": "彭",
+        "char_raw": "彭",
+        "pinyin": [
+            "Paeng",
+            "Pang",
+            "Peng",
+            "Phang"
+        ]
+    },
+    {
+        "index": 48,
+        "char": "郎",
+        "char_raw": "郎",
+        "pinyin": [
+            "Lang",
+            "Long"
+        ]
+    },
+    {
+        "index": 49,
+        "char": "鲁",
+        "char_raw": "鲁",
+        "pinyin": [
+            "Lo",
+            "Loh",
+            "Loo",
+            "Lou",
+            "Lu",
+            "Noh"
+        ]
+    },
+    {
+        "index": 50,
+        "char": "韦",
+        "char_raw": "韦",
+        "pinyin": [
+            "Vei",
+            "Vi",
+            "Wai",
+            "Wei"
+        ]
+    },
+    {
+        "index": 51,
+        "char": "昌",
+        "char_raw": "昌",
+        "pinyin": [
+            "Cang",
+            "Chang",
+            "Cheong",
+            "Cheung",
+            "Xuong"
+        ]
+    },
+    {
+        "index": 52,
+        "char": "马",
+        "char_raw": "马",
+        "pinyin": [
+            "Beh",
+            "Ma",
+            "Mah",
+            "Mha"
+        ]
+    },
+    {
+        "index": 53,
+        "char": "苗",
+        "char_raw": "苗",
+        "pinyin": [
+            "Miao",
+            "Mio",
+            "Miu"
+        ]
+    },
+    {
+        "index": 54,
+        "char": "凤",
+        "char_raw": "凤",
+        "pinyin": [
+            "Feng",
+            "Fong",
+            "Fung"
+        ]
+    },
+    {
+        "index": 55,
+        "char": "花",
+        "char_raw": "花",
+        "pinyin": [
+            "Fa",
+            "Faa",
+            "Fah",
+            "Fha",
+            "Hoa",
+            "Hua"
+        ]
+    },
+    {
+        "index": 56,
+        "char": "方",
+        "char_raw": "方",
+        "pinyin": [
+            "Bang",
+            "Fang",
+            "Fong",
+            "Fung",
+            "Huong",
+            "Phun",
+            "Phuong",
+            "Pung"
+        ]
+    },
+    {
+        "index": 57,
+        "char": "俞",
+        "char_raw": "俞",
+        "pinyin": [
+            "Je",
+            "U",
+            "Yii",
+            "You",
+            "Yu"
+        ]
+    },
+    {
+        "index": 58,
+        "char": "任",
+        "char_raw": "任",
+        "pinyin": [
+            "Iam",
+            "Jen",
+            "Ngam",
+            "Ngiam",
+            "Ngieng",
+            "Nham",
+            "Ren",
+            "Rim",
+            "Yam",
+            "Yim"
+        ]
+    },
+    {
+        "index": 59,
+        "char": "袁",
+        "char_raw": "袁",
+        "pinyin": [
+            "Iun",
+            "Ngen",
+            "Un",
+            "Vien",
+            "Won",
+            "Yuan",
+            "Yuen"
+        ]
+    },
+    {
+        "index": 60,
+        "char": "柳",
+        "char_raw": "柳",
+        "pinyin": [
+            "Lao",
+            "Lau",
+            "Lew",
+            "Lieu",
+            "Liew",
+            "Liu",
+            "Ryu",
+            "You",
+            "Yu"
+        ]
+    },
+    {
+        "index": 61,
+        "char": "酆",
+        "char_raw": "酆",
+        "pinyin": [
+            "Feng",
+            "Fong",
+            "Fung"
+        ]
+    },
+    {
+        "index": 62,
+        "char": "鮑",
+        "char_raw": "鮑",
+        "pinyin": [
+            "Bao",
+            "Pao",
+            "Pau"
+        ]
+    },
+    {
+        "index": 63,
+        "char": "史",
+        "char_raw": "史",
+        "pinyin": [
+            "Sa",
+            "Shi",
+            "Shih",
+            "Si",
+            "Sze"
+        ]
+    },
+    {
+        "index": 64,
+        "char": "唐",
+        "char_raw": "唐",
+        "pinyin": [
+            "Duong",
+            "Tang",
+            "Thang",
+            "Thong",
+            "Tong"
+        ]
+    },
+    {
+        "index": 65,
+        "char": "費",
+        "char_raw": "費讀「秘」",
+        "pinyin": [
+            "Pai",
+            "Pei"
+        ]
+    },
+    {
+        "index": 66,
+        "char": "廉",
+        "char_raw": "廉",
+        "pinyin": [
+            "Lian",
+            "Lien",
+            "Lim"
+        ]
+    },
+    {
+        "index": 67,
+        "char": "岑",
+        "char_raw": "岑",
+        "pinyin": [
+            "Cen",
+            "Sam",
+            "Shum",
+            "Sim",
+            "Sum",
+            "Tsen"
+        ]
+    },
+    {
+        "index": 68,
+        "char": "薛",
+        "char_raw": "薛",
+        "pinyin": [
+            "Hsueh",
+            "Seol",
+            "Sik",
+            "Silk",
+            "Sit",
+            "Sul",
+            "Xue"
+        ]
+    },
+    {
+        "index": 69,
+        "char": "雷",
+        "char_raw": "雷",
+        "pinyin": [
+            "Lei",
+            "Lewe",
+            "Loi",
+            "Looi",
+            "Lui"
+        ]
+    },
+    {
+        "index": 70,
+        "char": "賀",
+        "char_raw": "賀",
+        "pinyin": [
+            "He",
+            "Ho",
+            "Hoo",
+            "Hor"
+        ]
+    },
+    {
+        "index": 71,
+        "char": "倪",
+        "char_raw": "倪",
+        "pinyin": [
+            "Geh",
+            "Nga",
+            "Ngai",
+            "Ngam",
+            "Ni"
+        ]
+    },
+    {
+        "index": 72,
+        "char": "湯",
+        "char_raw": "湯",
+        "pinyin": [
+            "Tang",
+            "Thang",
+            "Thong",
+            "Tong"
+        ]
+    },
+    {
+        "index": 73,
+        "char": "滕",
+        "char_raw": "滕",
+        "pinyin": [
+            "Tang",
+            "Teng",
+            "Thang"
+        ]
+    },
+    {
+        "index": 74,
+        "char": "殷",
+        "char_raw": "殷",
+        "pinyin": [
+            "Ian",
+            "Ngam",
+            "Yam",
+            "Yan",
+            "Yin"
+        ]
+    },
+    {
+        "index": 75,
+        "char": "罗",
+        "char_raw": "罗",
+        "pinyin": [
+            "La",
+            "Lau",
+            "Law",
+            "Lo",
+            "Loh",
+            "Low",
+            "Luo",
+            "Na",
+            "Rah"
+        ]
+    },
+    {
+        "index": 76,
+        "char": "毕",
+        "char_raw": "毕",
+        "pinyin": [
+            "Bi",
+            "But",
+            "Pat",
+            "Pi",
+            "Tat"
+        ]
+    },
+    {
+        "index": 77,
+        "char": "郝",
+        "char_raw": "郝",
+        "pinyin": [
+            "Hao",
+            "Kok"
+        ]
+    },
+    {
+        "index": 78,
+        "char": "邬",
+        "char_raw": "邬",
+        "pinyin": [
+            "O",
+            "Voo",
+            "Vu",
+            "Woh",
+            "Woo",
+            "Wu"
+        ]
+    },
+    {
+        "index": 79,
+        "char": "安",
+        "char_raw": "安",
+        "pinyin": [
+            "Ahn",
+            "An",
+            "On"
+        ]
+    },
+    {
+        "index": 80,
+        "char": "常",
+        "char_raw": "常",
+        "pinyin": [
+            "Chang",
+            "Seong",
+            "Sheung"
+        ]
+    },
+    {
+        "index": 81,
+        "char": "乐",
+        "char_raw": "乐 讀「洛」或「惡」",
+        "pinyin": [
+            "Lok",
+            "Ok",
+            "Yue",
+            "Yueh"
+        ]
+    },
+    {
+        "index": 82,
+        "char": "于",
+        "char_raw": "于",
+        "pinyin": [
+            "U",
+            "Yu"
+        ]
+    },
+    {
+        "index": 83,
+        "char": "时",
+        "char_raw": "时",
+        "pinyin": [
+            "See",
+            "Shi",
+            "Shih",
+            "Si",
+            "Sze"
+        ]
+    },
+    {
+        "index": 84,
+        "char": "傅",
+        "char_raw": "傅",
+        "pinyin": [
+            "Foh",
+            "Foo",
+            "Fu"
+        ]
+    },
+    {
+        "index": 85,
+        "char": "皮",
+        "char_raw": "皮",
+        "pinyin": [
+            "Pei",
+            "Pi"
+        ]
+    },
+    {
+        "index": 86,
+        "char": "卞",
+        "char_raw": "卞",
+        "pinyin": [
+            "Bian",
+            "Byun",
+            "Pien",
+            "Pin"
+        ]
+    },
+    {
+        "index": 87,
+        "char": "齐",
+        "char_raw": "齐",
+        "pinyin": [
+            "Chai",
+            "Chi",
+            "Qi"
+        ]
+    },
+    {
+        "index": 88,
+        "char": "康",
+        "char_raw": "康",
+        "pinyin": [
+            "Gang",
+            "Hong",
+            "Kang"
+        ]
+    },
+    {
+        "index": 89,
+        "char": "伍",
+        "char_raw": "伍",
+        "pinyin": [
+            "Ng",
+            "Ngo",
+            "Ngoh",
+            "Woo",
+            "Wu",
+            "Wuh"
+        ]
+    },
+    {
+        "index": 90,
+        "char": "余",
+        "char_raw": "余",
+        "pinyin": [
+            "Tse",
+            "Tsia",
+            "U",
+            "Yee",
+            "Yu"
+        ]
+    },
+    {
+        "index": 91,
+        "char": "元",
+        "char_raw": "元",
+        "pinyin": [
+            "Iun",
+            "Un",
+            "Yuan",
+            "Yuen"
+        ]
+    },
+    {
+        "index": 92,
+        "char": "卜",
+        "char_raw": "卜",
+        "pinyin": [
+            "Bu",
+            "Pok",
+            "Pu",
+            "Puk",
+            "Puu"
+        ]
+    },
+    {
+        "index": 93,
+        "char": "顾",
+        "char_raw": "顾",
+        "pinyin": [
+            "Gu",
+            "Koe",
+            "Koo",
+            "Ku"
+        ]
+    },
+    {
+        "index": 94,
+        "char": "孟",
+        "char_raw": "孟",
+        "pinyin": [
+            "Maeng",
+            "Mang",
+            "Meng"
+        ]
+    },
+    {
+        "index": 95,
+        "char": "平",
+        "char_raw": "平",
+        "pinyin": [
+            "Peng",
+            "Ping"
+        ]
+    },
+    {
+        "index": 96,
+        "char": "黄",
+        "char_raw": "黄",
+        "pinyin": [
+            "Bong",
+            "Boong",
+            "Huang",
+            "Hwang",
+            "Ng",
+            "Ong",
+            "Ooi",
+            "Vong",
+            "Wee",
+            "Wong"
+        ]
+    },
+    {
+        "index": 97,
+        "char": "和",
+        "char_raw": "和",
+        "pinyin": [
+            "He",
+            "Ho",
+            "Hoo",
+            "Hwa",
+            "Vo",
+            "Wo",
+            "Woh",
+            "Woo"
+        ]
+    },
+    {
+        "index": 98,
+        "char": "穆",
+        "char_raw": "穆",
+        "pinyin": [
+            "Mu",
+            "Muk"
+        ]
+    },
+    {
+        "index": 99,
+        "char": "萧",
+        "char_raw": "萧",
+        "pinyin": [
+            "Hsiao",
+            "Seow",
+            "Seu",
+            "Sew",
+            "Shiu",
+            "Siau",
+            "Siaw",
+            "Siew",
+            "Sio",
+            "Siu",
+            "Xiao"
+        ]
+    },
+    {
+        "index": 100,
+        "char": "尹",
+        "char_raw": "尹",
+        "pinyin": [
+            "Wan",
+            "Yin",
+            "Yoon"
+        ]
+    },
+    {
+        "index": 101,
+        "char": "姚",
+        "char_raw": "姚",
+        "pinyin": [
+            "Io",
+            "Yao",
+            "Yeo",
+            "Yeoh",
+            "Yew",
+            "Yiu",
+            "Yow"
+        ]
+    },
+    {
+        "index": 102,
+        "char": "邵",
+        "char_raw": "邵",
+        "pinyin": [
+            "Sao",
+            "Shao",
+            "Shau",
+            "Shaw",
+            "Shiu",
+            "Sio",
+            "Siu"
+        ]
+    },
+    {
+        "index": 103,
+        "char": "湛",
+        "char_raw": "湛",
+        "pinyin": [
+            "Cham",
+            "Chan",
+            "Zhan"
+        ]
+    },
+    {
+        "index": 104,
+        "char": "汪",
+        "char_raw": "汪",
+        "pinyin": [
+            "Vang",
+            "Vong",
+            "Wang",
+            "Wong"
+        ]
+    },
+    {
+        "index": 105,
+        "char": "祁",
+        "char_raw": "祁",
+        "pinyin": [
+            "Chi",
+            "Kei",
+            "Qi"
+        ]
+    },
+    {
+        "index": 106,
+        "char": "毛",
+        "char_raw": "毛",
+        "pinyin": [
+            "Bo",
+            "Boo",
+            "Mao",
+            "Mo",
+            "Moh",
+            "Moo",
+            "Mou"
+        ]
+    },
+    {
+        "index": 107,
+        "char": "禹",
+        "char_raw": "禹",
+        "pinyin": [
+            "U",
+            "Yu"
+        ]
+    },
+    {
+        "index": 108,
+        "char": "狄",
+        "char_raw": "狄",
+        "pinyin": [
+            "Di",
+            "Dick",
+            "Tek",
+            "Ti",
+            "Tik"
+        ]
+    },
+    {
+        "index": 109,
+        "char": "米",
+        "char_raw": "米",
+        "pinyin": [
+            "Mai",
+            "Mi"
+        ]
+    },
+    {
+        "index": 110,
+        "char": "贝",
+        "char_raw": "贝",
+        "pinyin": [
+            "Bei",
+            "Pei",
+            "Pui"
+        ]
+    },
+    {
+        "index": 111,
+        "char": "明",
+        "char_raw": "明",
+        "pinyin": [
+            "Meng",
+            "Ming",
+            "Myeong",
+            "Myung"
+        ]
+    },
+    {
+        "index": 112,
+        "char": "臧",
+        "char_raw": "臧",
+        "pinyin": [
+            "Chong",
+            "Tsang",
+            "Zang"
+        ]
+    },
+    {
+        "index": 113,
+        "char": "计",
+        "char_raw": "计",
+        "pinyin": [
+            "Chi",
+            "Ji",
+            "Kai"
+        ]
+    },
+    {
+        "index": 114,
+        "char": "伏",
+        "char_raw": "伏",
+        "pinyin": [
+            "Fok",
+            "Fu",
+            "Fuk"
+        ]
+    },
+    {
+        "index": 115,
+        "char": "成",
+        "char_raw": "成",
+        "pinyin": [
+            "Cheng",
+            "Sang",
+            "Seng",
+            "Seong",
+            "Shang",
+            "Shing",
+            "Sing",
+            "Sung",
+            "Tshan",
+            "Tshang"
+        ]
+    },
+    {
+        "index": 116,
+        "char": "戴",
+        "char_raw": "戴",
+        "pinyin": [
+            "Dai",
+            "Dhai",
+            "Tai",
+            "Thai"
+        ]
+    },
+    {
+        "index": 117,
+        "char": "谈",
+        "char_raw": "谈",
+        "pinyin": [
+            "Tam",
+            "Tan"
+        ]
+    },
+    {
+        "index": 118,
+        "char": "宋",
+        "char_raw": "宋",
+        "pinyin": [
+            "Shong",
+            "Song",
+            "Sung"
+        ]
+    },
+    {
+        "index": 119,
+        "char": "茅",
+        "char_raw": "茅",
+        "pinyin": [
+            "Mao",
+            "Mau"
+        ]
+    },
+    {
+        "index": 120,
+        "char": "庞",
+        "char_raw": "庞",
+        "pinyin": [
+            "Pang",
+            "Phong",
+            "Pong"
+        ]
+    }
+]

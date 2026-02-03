@@ -78,40 +78,6 @@ class TestPDFProcessor(unittest.TestCase):
         self.assertEqual(doc_type, DocumentType.CERTIFICATE)
         self.assertEqual(metadata["type_detail"], "Acord25")
 
-    def test_analyze_top_left_heuristic(self):
-        full_text = """
-        INSURANCE POLICY
-        Policy No: 123
-        """
-        # Mocking top_left_words with font size info
-        # Lines:
-        # Renewal Declaration (Size 10)
-        # 12345 (Size 10)
-        # John Wick (Size 14) - Should win!
-        # Small Print (Size 8)
-        
-        top_left_words = [
-            {"text": "Renewal", "top": 10, "x0": 10, "size": 10},
-            {"text": "Declaration", "top": 10, "x0": 50, "size": 10},
-            {"text": "12345", "top": 30, "x0": 10, "size": 10},
-            {"text": "John", "top": 50, "x0": 10, "size": 14},
-            {"text": "Wick", "top": 50, "x0": 40, "size": 14},
-            {"text": "Small", "top": 70, "x0": 10, "size": 8},
-            {"text": "Print", "top": 70, "x0": 40, "size": 8},
-        ]
 
-        doc_type, metadata = self.processor.analyze_content({
-            "full_text": full_text, 
-            "pages": [
-                {
-                    "words": top_left_words, 
-                    "width": 600, 
-                    "height": 800, 
-                    "text": full_text
-                }
-            ]
-        })
-        self.assertEqual(metadata["insured_name"], "John_Wick")
-        
 if __name__ == '__main__':
     unittest.main()

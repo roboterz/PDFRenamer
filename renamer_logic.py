@@ -1,20 +1,29 @@
 import re
 import os
+from datetime import datetime
 import pytesseract
 from thefuzz import process, fuzz
 from pdfplumber import open as plumber_open
 import pdfplumber
 from enum import Enum, auto
 
+from surname_matcher import SurnameMatcher
+
 class DocumentType(Enum):
     POLICY = auto()
     INVOICE = auto()
     CERTIFICATE = auto()
+    CANCELLATION_REQUEST = auto()
+    CME_TERM = auto()
+    DRIVER_LICENSE = auto()
+    CHECK = auto()
     UNKNOWN = auto()
 
 class PDFProcessor:
     def __init__(self):
-        pass
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        json_path = os.path.join(script_dir, "chinese_surnames_detailed.json")
+        self.surname_matcher = SurnameMatcher(json_path)
 
     def extract_data(self, filepath):
         """Extracts text and spatial data from the first few pages of the PDF."""
@@ -341,6 +350,10 @@ class PDFProcessor:
         
         name_lower = name.lower()
         
+        # Exact match blocklist for short/ambiguous terms that shouldn't be blocked as substrings
+        if name_lower in ["u i"]:
+            return False
+
         # Blocklist of generic terms
         blocklist = [
             "policy", "number", "date", "page", "invoice", "bill", "renewal", 
@@ -348,7 +361,9 @@ class PDFProcessor:
             "insurance", "company", "declaration", "homeowner", "automobile",
             "unknown", "address", "phone", "fax", "email", "website", "www", "http",
             "summary", "coverage", "auto", "liability", "commercial", "quote", 
-            "proposal", "endorsement", "detail", "premium", "location"
+            "proposal", "endorsement", "detail", "premium", "location",
+            "postnet", "suite", "box", "po box", "p.o.", "road", "street", "avenue", "drive",
+            "check", "and", "cancelled", "ocn", "o c n", "o c. n"
         ]
         
         for bad_word in blocklist:
@@ -360,6 +375,12 @@ class PDFProcessor:
         if digit_count > len(name) * 0.4: # More than 40% digits
             return False
             
+        # Check for 3 single characters (e.g. "A B C") - User Request
+        parts = name.split()
+        if len(parts) == 3:
+            if all(len(p) == 1 for p in parts):
+                return False
+                
         # Check for date-like characters
         if re.search(r'\d{1,2}[/-]\d{1,2}[/-]\d{2,4}', name):
             return False
@@ -367,7 +388,11 @@ class PDFProcessor:
         return True
     
     def _sanitize_name(self, name):
-        """Removes invalid filename characters and excess whitespace."""
+        """Removes invalid filename characters, excess whitespace, and parentheses."""
+        # Truncate at parenthesis (User requirement: Names won't have parentheses)
+        if '(' in name:
+            name = name.split('(')[0]
+            
         # Invalid chars: < > : " / \ | ? *
         cleaned = re.sub(r'[<>:"/\\|?*]', '', name)
         cleaned = cleaned.strip(" .,-_")
@@ -400,15 +425,55 @@ class PDFProcessor:
                 policy_found = True
                 break
         
-        if not policy_found:
+        if "cancellation request" in text_lower or "policy release" in text_lower or "acord 35" in text_lower:
+             doc_type = DocumentType.CANCELLATION_REQUEST
+
+        elif "cme insurance brokerage inc" in text_lower and "agreement acknowledgement" in text_lower:
+             doc_type = DocumentType.CME_TERM
+
+        elif "driver license" in text_lower or "driver's license" in text_lower or "identification card" in text_lower:
+             doc_type = DocumentType.DRIVER_LICENSE
+        
+        elif not policy_found:
             # Priority 2: Certificate
             if "certificate of insurance" in text_lower or "acord" in text_lower:
                 doc_type = DocumentType.CERTIFICATE
             # Priority 3: Invoice (Check this LAST)
             elif "invoice" in text_lower or "bill" in text_lower or "due" in text_lower:
                 doc_type = DocumentType.INVOICE
+            
+            # Priority 4: Check
+            elif "pay to the order of" in text_lower or "check no." in text_lower:
+                 doc_type = DocumentType.CHECK
 
         # 2. Extract Metadata - HYBRID APPROACH (Regex Priority for Reliability)
+        
+        # Pre-process: Remove parenthesized content (User requirement: Brackets are not names)
+        # e.g. "Wang (Owner)" -> "Wang "
+        cleaned_text = re.sub(r'\(.*?\)', ' ', text, flags=re.DOTALL)
+
+        # --- Name Extraction for Checks (Special Rule) ---
+        if doc_type == DocumentType.CHECK:
+             # User Rule: "usually the beginning place is the name"
+             # Grab first valid line.
+             lines = text.split('\n')
+             for line in lines[:6]: # Look at first few lines
+                 l = line.strip()
+                 # Skip potential noise like "1234" (check number) or empty
+                 if not l: continue
+                 
+                 # Clean it
+                 clean_l = self._sanitize_name(l)
+                 
+                 # Basic validations
+                 if len(clean_l) < 3: continue
+                 if "pay to" in clean_l.lower(): continue
+                 if "bank" in clean_l.lower(): continue
+                 
+                 if self._is_valid_name(clean_l):
+                     metadata["insured_name"] = clean_l.replace(' ', '_')
+                     name_found = True # This prevents downstream logic from overwriting if we trust this
+                     break
 
         # --- Insured Name ---
         # Regex First (it handles "Name: Value" patterns well usually)
@@ -417,20 +482,24 @@ class PDFProcessor:
             # Handle: "Item 1. Named Insured", "Named Insured(s)", "Named Insured:"
             # Note: (?:...) is non-capturing group. parens in text need escaping if we mean literal parens.
             # We want to match "Named Insured" or "Named Insured(s)" or "Named Insureds"
-            r'(?:Item\s*\d+\.?)?\s*Named\s*Insured(?:\(s\)|s)?[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
-            r'Insured\s*Name(?:s)?[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
-            r'Insured[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
-            r'Account\s*Name[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
-            r'Applicant[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
-            r'Customer[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
-            r'(?:First\s*)?Named\s*Insured[:\.]?\s*([A-Za-z0-9\s,&.-]+)', 
-            r'Policyholder[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
-            r'Entity[:\.]?\s*([A-Za-z0-9\s,&.-]+)' 
+            r'(?:Item\s*\d+\.?)?\s*Named\s*Insured(?:\(s\)|s)?\s*[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
+            r'Insured\s*Name(?:s)?\s*[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
+            r'Insured\s*[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
+            r'Account\s*Name\s*[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
+            r'Applicant\s*[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
+            r'Customer\s*[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
+            r'(?:First\s*)?Named\s*Insured\s*[:\.]?\s*([A-Za-z0-9\s,&.-]+)', 
+            r'Policyholder\s*[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
+            r'Entity\s*[:\.]?\s*([A-Za-z0-9\s,&.-]+)',
+            # Driver License Specific
+            r'\bLN\s*[:\.]?\s*([A-Za-z\s]+)', # LN Lastname
+            r'\b1\.\s*([A-Za-z\s,]+)', # 1. Name (Standard ID format)
+            r'\bName\s*[:\.]?\s*([A-Za-z\s,]+)' 
         ]
         
         name_found = False
         for pat in insured_patterns:
-             m = re.search(pat, text, re.IGNORECASE)
+             m = re.search(pat, cleaned_text, re.IGNORECASE)
              if m:
                  # Capture group 1
                  raw_name = m.group(1)
@@ -442,6 +511,10 @@ class PDFProcessor:
                  # Basic cleaner
                  clean = re.sub(r'Page\s+\d+', '', clean, flags=re.IGNORECASE)
                  clean = re.sub(r'Policy\s+No.*', '', clean, flags=re.IGNORECASE)
+                 clean = re.sub(r'Applicant.*', '', clean, flags=re.IGNORECASE)
+                 clean = re.sub(r'Producer.*', '', clean, flags=re.IGNORECASE)
+                 # Collapse multiple spaces
+                 clean = re.sub(r'\s+', ' ', clean)
                  # Remove trailing punctuation often captured
                  clean = clean.strip(".,-:")
                  # Remove internal commas for cleaner filename
@@ -474,11 +547,27 @@ class PDFProcessor:
                  spat_name = self._find_text_spatially(data, no_colon_keys, 'right', x_tolerance=300, filepath=filepath)
                  
              if spat_name:
-                 cleaned_spat = spat_name.split('\n')[0].strip()
-                 if self._is_valid_name(cleaned_spat):
-                     metadata["insured_name"] = self._sanitize_name(cleaned_spat).replace(' ', '_')
+                # Clean parens from spatial result too
+                # e.g. "(Owner) Wang" -> " Wang"
+                spat_name_clean = re.sub(r'\(.*?\)', ' ', spat_name, flags=re.DOTALL)
+                cleaned_spat = spat_name_clean.split('\n')[0].strip()
+                # print(f"DEBUG: Cleaned Spatial Name: '{cleaned_spat}'")
+                if self._is_valid_name(cleaned_spat):
+                    metadata["insured_name"] = self._sanitize_name(cleaned_spat).replace(' ', '_')
+                    name_found = True
 
-                     metadata["insured_name"] = self._sanitize_name(cleaned_spat).replace(' ', '_')
+        # 4. Final Fallback: Surname Matching using CLEANED TEXT
+        if not name_found and self.surname_matcher:
+            # Use 'cleaned_text' which has no parens content
+            candidates = self.surname_matcher.find_potential_names(cleaned_text)
+            
+            for candidate in candidates:
+                if self._is_valid_name(candidate):
+                    metadata["insured_name"] = self._sanitize_name(candidate).replace(' ', '_')
+                    name_found = True
+                    break # Take first high-quality candidate
+
+
 
 
 
@@ -503,7 +592,10 @@ class PDFProcessor:
                 r'Policy Period:?\s*(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})',
                 r'(?:Effective|Issue|Policy)?\s*Date:?\s*(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})',
                 r'(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2},?\s+\d{4}',
-                r'(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})' # Fallback
+                r'(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})', # Fallback
+                # DL Specific
+                r'(?:Exp|Expires|Exp Date)\s*[:\.]?\s*(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})',
+                r'(?:Iss|Issued|Iss Date)\s*[:\.]?\s*(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})'
             ]
             
             # Try Regex
@@ -531,6 +623,9 @@ class PDFProcessor:
         if found_date:
              found_date = found_date.replace('/', '-').replace(',', '').replace('.', '')
              metadata["date"] = found_date.replace(' ', '-')
+        elif doc_type == DocumentType.CHECK or doc_type == DocumentType.CME_TERM:
+             # User Request: If Check or CME Term and no date found, use today's date
+             metadata["date"] = datetime.now().strftime("%m-%d-%Y")
 
         # --- Company ---
         # Known list is best
@@ -596,6 +691,14 @@ class PDFProcessor:
         elif doc_type == DocumentType.CERTIFICATE:
             cert_type = metadata.get("type_detail", "Certificate")
             new_name = f"{insured}_{cert_type}_{date}{ext}"
+        elif doc_type == DocumentType.CANCELLATION_REQUEST:
+            new_name = f"{insured}_Cancellation Request_{date}{ext}"
+        elif doc_type == DocumentType.CHECK:
+            new_name = f"{insured}_Check_{date}{ext}"
+        elif doc_type == DocumentType.CME_TERM:
+            new_name = f"{insured}_CME Term_{date}{ext}"
+        elif doc_type == DocumentType.DRIVER_LICENSE:
+            new_name = f"{insured}_DL_{date}{ext}"
         else:
             # Fallback
             new_name = f"Unknown_{os.path.basename(filepath)}"

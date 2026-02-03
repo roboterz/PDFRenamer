@@ -1,0 +1,715 @@
+{
+    "description": "Common Chinese surnames and given name characters with Pinyin",
+    "surnames": [
+        {
+            "char": "李",
+            "pinyin": "Lǐ"
+        },
+        {
+            "char": "王",
+            "pinyin": "Wáng"
+        },
+        {
+            "char": "张",
+            "pinyin": "Zhāng"
+        },
+        {
+            "char": "刘",
+            "pinyin": "Liú"
+        },
+        {
+            "char": "陈",
+            "pinyin": "Chén"
+        },
+        {
+            "char": "杨",
+            "pinyin": "Yáng"
+        },
+        {
+            "char": "赵",
+            "pinyin": "Zhào"
+        },
+        {
+            "char": "黄",
+            "pinyin": "Huáng"
+        },
+        {
+            "char": "周",
+            "pinyin": "Zhōu"
+        },
+        {
+            "char": "吴",
+            "pinyin": "Wú"
+        },
+        {
+            "char": "徐",
+            "pinyin": "Xú"
+        },
+        {
+            "char": "孙",
+            "pinyin": "Sūn"
+        },
+        {
+            "char": "胡",
+            "pinyin": "Hú"
+        },
+        {
+            "char": "朱",
+            "pinyin": "Zhū"
+        },
+        {
+            "char": "高",
+            "pinyin": "Gāo"
+        },
+        {
+            "char": "林",
+            "pinyin": "Lín"
+        },
+        {
+            "char": "何",
+            "pinyin": "Hé"
+        },
+        {
+            "char": "郭",
+            "pinyin": "Guō"
+        },
+        {
+            "char": "马",
+            "pinyin": "Mǎ"
+        },
+        {
+            "char": "罗",
+            "pinyin": "Luó"
+        },
+        {
+            "char": "梁",
+            "pinyin": "Liáng"
+        },
+        {
+            "char": "宋",
+            "pinyin": "Sòng"
+        },
+        {
+            "char": "郑",
+            "pinyin": "Zhèng"
+        },
+        {
+            "char": "谢",
+            "pinyin": "Xiè"
+        },
+        {
+            "char": "韩",
+            "pinyin": "Hán"
+        },
+        {
+            "char": "唐",
+            "pinyin": "Táng"
+        },
+        {
+            "char": "冯",
+            "pinyin": "Féng"
+        },
+        {
+            "char": "于",
+            "pinyin": "Yú"
+        },
+        {
+            "char": "董",
+            "pinyin": "Dǒng"
+        },
+        {
+            "char": "萧",
+            "pinyin": "Xiāo"
+        },
+        {
+            "char": "程",
+            "pinyin": "Chéng"
+        },
+        {
+            "char": "曹",
+            "pinyin": "Cáo"
+        },
+        {
+            "char": "袁",
+            "pinyin": "Yuán"
+        },
+        {
+            "char": "邓",
+            "pinyin": "Dèng"
+        },
+        {
+            "char": "许",
+            "pinyin": "Xǔ"
+        },
+        {
+            "char": "傅",
+            "pinyin": "Fù"
+        },
+        {
+            "char": "沈",
+            "pinyin": "Shěn"
+        },
+        {
+            "char": "曾",
+            "pinyin": "Zēng"
+        },
+        {
+            "char": "彭",
+            "pinyin": "Péng"
+        },
+        {
+            "char": "吕",
+            "pinyin": "Lǚ"
+        },
+        {
+            "char": "苏",
+            "pinyin": "Sū"
+        },
+        {
+            "char": "卢",
+            "pinyin": "Lú"
+        },
+        {
+            "char": "蒋",
+            "pinyin": "Jiǎng"
+        },
+        {
+            "char": "蔡",
+            "pinyin": "Cài"
+        },
+        {
+            "char": "贾",
+            "pinyin": "Jiǎ"
+        },
+        {
+            "char": "丁",
+            "pinyin": "Dīng"
+        },
+        {
+            "char": "魏",
+            "pinyin": "Wèi"
+        },
+        {
+            "char": "薛",
+            "pinyin": "Xuē"
+        },
+        {
+            "char": "叶",
+            "pinyin": "Yè"
+        },
+        {
+            "char": "阎",
+            "pinyin": "Yán"
+        },
+        {
+            "char": "余",
+            "pinyin": "Yú"
+        },
+        {
+            "char": "潘",
+            "pinyin": "Pān"
+        },
+        {
+            "char": "杜",
+            "pinyin": "Dù"
+        },
+        {
+            "char": "戴",
+            "pinyin": "Dài"
+        },
+        {
+            "char": "夏",
+            "pinyin": "Xià"
+        },
+        {
+            "char": "钟",
+            "pinyin": "Zhōng"
+        },
+        {
+            "char": "汪",
+            "pinyin": "Wāng"
+        },
+        {
+            "char": "田",
+            "pinyin": "Tián"
+        },
+        {
+            "char": "任",
+            "pinyin": "Rén"
+        },
+        {
+            "char": "姜",
+            "pinyin": "Jiāng"
+        },
+        {
+            "char": "范",
+            "pinyin": "Fàn"
+        },
+        {
+            "char": "方",
+            "pinyin": "Fāng"
+        },
+        {
+            "char": "石",
+            "pinyin": "Shí"
+        },
+        {
+            "char": "姚",
+            "pinyin": "Yáo"
+        },
+        {
+            "char": "谭",
+            "pinyin": "Tán"
+        },
+        {
+            "char": "盛",
+            "pinyin": "Shèng"
+        },
+        {
+            "char": "邹",
+            "pinyin": "Zōu"
+        },
+        {
+            "char": "熊",
+            "pinyin": "Xióng"
+        },
+        {
+            "char": "金",
+            "pinyin": "Jīn"
+        },
+        {
+            "char": "陆",
+            "pinyin": "Lù"
+        },
+        {
+            "char": "郝",
+            "pinyin": "Hǎo"
+        },
+        {
+            "char": "孔",
+            "pinyin": "Kǒng"
+        },
+        {
+            "char": "白",
+            "pinyin": "Bái"
+        },
+        {
+            "char": "崔",
+            "pinyin": "Cuī"
+        },
+        {
+            "char": "康",
+            "pinyin": "Kāng"
+        },
+        {
+            "char": "毛",
+            "pinyin": "Máo"
+        },
+        {
+            "char": "邱",
+            "pinyin": "Qiū"
+        },
+        {
+            "char": "秦",
+            "pinyin": "Qín"
+        },
+        {
+            "char": "江",
+            "pinyin": "Jiāng"
+        },
+        {
+            "char": "史",
+            "pinyin": "Shǐ"
+        },
+        {
+            "char": "顾",
+            "pinyin": "Gù"
+        },
+        {
+            "char": "侯",
+            "pinyin": "Hóu"
+        },
+        {
+            "char": "邵",
+            "pinyin": "Shào"
+        },
+        {
+            "char": "孟",
+            "pinyin": "Mèng"
+        },
+        {
+            "char": "龙",
+            "pinyin": "Lóng"
+        },
+        {
+            "char": "万",
+            "pinyin": "Wàn"
+        },
+        {
+            "char": "段",
+            "pinyin": "Duàn"
+        },
+        {
+            "char": "章",
+            "pinyin": "Zhāng"
+        },
+        {
+            "char": "钱",
+            "pinyin": "Qián"
+        },
+        {
+            "char": "汤",
+            "pinyin": "Tāng"
+        },
+        {
+            "char": "尹",
+            "pinyin": "Yǐn"
+        },
+        {
+            "char": "黎",
+            "pinyin": "Lí"
+        },
+        {
+            "char": "易",
+            "pinyin": "Yì"
+        },
+        {
+            "char": "常",
+            "pinyin": "Cháng"
+        },
+        {
+            "char": "武",
+            "pinyin": "Wǔ"
+        },
+        {
+            "char": "乔",
+            "pinyin": "Qiáo"
+        },
+        {
+            "char": "贺",
+            "pinyin": "Hè"
+        },
+        {
+            "char": "赖",
+            "pinyin": "Lài"
+        },
+        {
+            "char": "龚",
+            "pinyin": "Gōng"
+        },
+        {
+            "char": "文",
+            "pinyin": "Wén"
+        }
+    ],
+    "common_given_names": [
+        {
+            "char": "伟",
+            "pinyin": "Wěi"
+        },
+        {
+            "char": "强",
+            "pinyin": "Qiáng"
+        },
+        {
+            "char": "磊",
+            "pinyin": "Lěi"
+        },
+        {
+            "char": "洋",
+            "pinyin": "Yáng"
+        },
+        {
+            "char": "勇",
+            "pinyin": "Yǒng"
+        },
+        {
+            "char": "军",
+            "pinyin": "Jūn"
+        },
+        {
+            "char": "杰",
+            "pinyin": "Jié"
+        },
+        {
+            "char": "涛",
+            "pinyin": "Tāo"
+        },
+        {
+            "char": "超",
+            "pinyin": "Chāo"
+        },
+        {
+            "char": "明",
+            "pinyin": "Míng"
+        },
+        {
+            "char": "刚",
+            "pinyin": "Gāng"
+        },
+        {
+            "char": "平",
+            "pinyin": "Píng"
+        },
+        {
+            "char": "辉",
+            "pinyin": "Huī"
+        },
+        {
+            "char": "鹏",
+            "pinyin": "Péng"
+        },
+        {
+            "char": "华",
+            "pinyin": "Huá"
+        },
+        {
+            "char": "飞",
+            "pinyin": "Fēi"
+        },
+        {
+            "char": "鑫",
+            "pinyin": "Xīn"
+        },
+        {
+            "char": "波",
+            "pinyin": "Bō"
+        },
+        {
+            "char": "斌",
+            "pinyin": "Bīn"
+        },
+        {
+            "char": "宇",
+            "pinyin": "Yǔ"
+        },
+        {
+            "char": "浩",
+            "pinyin": "Hào"
+        },
+        {
+            "char": "凯",
+            "pinyin": "Kǎi"
+        },
+        {
+            "char": "健",
+            "pinyin": "Jiàn"
+        },
+        {
+            "char": "俊",
+            "pinyin": "Jùn"
+        },
+        {
+            "char": "帆",
+            "pinyin": "Fān"
+        },
+        {
+            "char": "帅",
+            "pinyin": "Shuài"
+        },
+        {
+            "char": "旭",
+            "pinyin": "Xù"
+        },
+        {
+            "char": "宁",
+            "pinyin": "Níng"
+        },
+        {
+            "char": "龙",
+            "pinyin": "Lóng"
+        },
+        {
+            "char": "林",
+            "pinyin": "Lín"
+        },
+        {
+            "char": "欢",
+            "pinyin": "Huān"
+        },
+        {
+            "char": "阳",
+            "pinyin": "Yáng"
+        },
+        {
+            "char": "建",
+            "pinyin": "Jiàn"
+        },
+        {
+            "char": "亮",
+            "pinyin": "Liàng"
+        },
+        {
+            "char": "成",
+            "pinyin": "Chéng"
+        },
+        {
+            "char": "峰",
+            "pinyin": "Fēng"
+        },
+        {
+            "char": "芳",
+            "pinyin": "Fāng"
+        },
+        {
+            "char": "娜",
+            "pinyin": "Nà"
+        },
+        {
+            "char": "敏",
+            "pinyin": "Mǐn"
+        },
+        {
+            "char": "静",
+            "pinyin": "Jìng"
+        },
+        {
+            "char": "秀",
+            "pinyin": "Xiù"
+        },
+        {
+            "char": "娟",
+            "pinyin": "Juān"
+        },
+        {
+            "char": "英",
+            "pinyin": "Yīng"
+        },
+        {
+            "char": "慧",
+            "pinyin": "Huì"
+        },
+        {
+            "char": "巧",
+            "pinyin": "Qiǎo"
+        },
+        {
+            "char": "美",
+            "pinyin": "Měi"
+        },
+        {
+            "char": "丹",
+            "pinyin": "Dān"
+        },
+        {
+            "char": "霞",
+            "pinyin": "Xiá"
+        },
+        {
+            "char": "芹",
+            "pinyin": "Qín"
+        },
+        {
+            "char": "婷",
+            "pinyin": "Tíng"
+        },
+        {
+            "char": "燕",
+            "pinyin": "Yàn"
+        },
+        {
+            "char": "萍",
+            "pinyin": "Píng"
+        },
+        {
+            "char": "红",
+            "pinyin": "Hóng"
+        },
+        {
+            "char": "玲",
+            "pinyin": "Líng"
+        },
+        {
+            "char": "莉",
+            "pinyin": "Lì"
+        },
+        {
+            "char": "梅",
+            "pinyin": "Méi"
+        },
+        {
+            "char": "雪",
+            "pinyin": "Xuě"
+        },
+        {
+            "char": "兰",
+            "pinyin": "Lán"
+        },
+        {
+            "char": "洁",
+            "pinyin": "Jié"
+        },
+        {
+            "char": "素",
+            "pinyin": "Sù"
+        },
+        {
+            "char": "云",
+            "pinyin": "Yún"
+        },
+        {
+            "char": "莲",
+            "pinyin": "Lián"
+        },
+        {
+            "char": "真",
+            "pinyin": "Zhēn"
+        },
+        {
+            "char": "环",
+            "pinyin": "Huán"
+        },
+        {
+            "char": "荣",
+            "pinyin": "Róng"
+        },
+        {
+            "char": "爱",
+            "pinyin": "Ài"
+        },
+        {
+            "char": "妹",
+            "pinyin": "Mèi"
+        },
+        {
+            "char": "月",
+            "pinyin": "Yuè"
+        },
+        {
+            "char": "莺",
+            "pinyin": "Yīng"
+        },
+        {
+            "char": "媛",
+            "pinyin": "Yuán"
+        },
+        {
+            "char": "艳",
+            "pinyin": "Yàn"
+        },
+        {
+            "char": "瑞",
+            "pinyin": "Ruì"
+        },
+        {
+            "char": "凡",
+            "pinyin": "Fán"
+        },
+        {
+            "char": "佳",
+            "pinyin": "Jiā"
+        },
+        {
+            "char": "思",
+            "pinyin": "Sī"
+        },
+        {
+            "char": "群",
+            "pinyin": "Qún"
+        },
+        {
+            "char": "琼",
+            "pinyin": "Qióng"
+        }
+    ]
+}

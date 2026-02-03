@@ -1,0 +1,124 @@
+1	赵	Zhao	Chao	Chiu	Chio	Chow	Teoh/ Chew/ Tiew	Trieu	Jo/Cho
+2	钱	Qian	Chien	Chin	Chin	Zee	Chien/Chen	Tien	Joen/Chun
+3	孙	Sun	Sun	Suen	Sun	Soon	Soon/Sun/Shun/Song	Ton	Son
+4	李	Li	Li / Lee	Li / Lee	Lei	Lee	Lee/Li	Ly	Lee / Rhee/ Yi
+5	周	Zhou	Chou	Chow / Chau	Chao	Chew	Chew / Cheu / Chou / Chow / Chiew	Chu	Ju/Chu
+6	吴	Wu	Wu	Ng	Ng	Goh	Ng / Goh / Ngo/ Ngu	Ngo	Oh
+7	郑	Zheng	Cheng	Cheng	Cheang	Tay	Ching / Tang / Tey / Tay / Tee / Teh / Cheng / Chin / Chang / Chung / Chiang	Trinh
+8	王	Wang	Wang	Wong	Vong / Wong	Ong / Wong	Ong / Ng / Wong / Wang / Bong / Heng	Vuong	Wang
+9	冯	Feng	Feng	Fung	Fong		Foong/Fung/Fong	Phung	Pung
+10	陈	Chen	Chen	Chan	Chan	Tan / Chan / Ting	Chan / Chin / Chen / Tan / Tang / Ting / Sin	Tran	Jin/Chin
+11	褚	Chu	Chu	Chu	Chu		Too/Toh		
+12	卫	Wei	Wei	Wai	Wai		Wee/Wei	Vi	Ui/Oui
+13	蒋	Jiang	Chiang	Cheung	Cheong		Chiang/Cheong/Chiong	Tuong	Jang/Chang
+14	沈	Shen	Shen	Shum / Sum	Sam	Sim	Sim/Shim/Shun/Shum		Sim
+15	韩	Han	Han	Hon	Hon		Hon/Hong	Han	Han
+16	杨	Yang	Yang	Yeung	Ieong	Yeo / Yong	Yong / Yeo / Yeoh / Eow / Yeong / Yew	Duong	Yang
+17	朱	Zhu	Chu	Chu	Chu	Choo	Chu/Choo/Jee/Jeh	Chau	Chu/ Joo
+18	秦	Qin	Chin	Chun			Chin/Ch'ng	Tan	Jin/Chin
+19	尤	You	Yu	Yau	Iao		Yew/You	Vuu	
+20	许	Xu	Hsu	Hui	Hoi	Hee / Koh	Khu / Khoo / Khor / Khow / Hoo / Hooi / Khaw / Hii	Hu	Heo/Huh
+21	何	He	Ho	Ho	Ho	Hoh	Ho/Hoh/Hor	Ha	Ha
+22	吕	Lu	Lu	Lui	Loi		Loh/Lei/Lui/Lee	La/Lu	Yeo/Ryeo
+23	施	Shi	Shih	Sze	Si		See/Sii/Sih		
+24	张	Zhang	Chang	Cheung	Cheong	Cheong	Cheong / Chong / Teo / Chang / Teoh / Tiong	Truong	Jang/Chang
+25	孔	Kong	Kung	Hung	Hong		Kong/Khong/Kung	Khong	Gong/Kong
+26	曹	Cao	Tsao	Cho / Tso	Chou		Cheng/Choo/Cho/Chu/Chao	Tao	Cho/Jo
+27	严	Yan	Yen	Yim	Im		Yam/Ngim	Nghiem	Im
+28	华	Hua	Hua	Wa / Wah	Wa	Hoa	Wha/Wah/Wa		
+29	金	Jin	Chin	Kam	Kam		Kim/King	Kim	Kim
+30	魏	Wei	Wei	Ngai	Ngai		Ngui/Gui/Woi	Nguy	Ui/Oui
+31	陶	Tao	Tao	To	Tou		Tho/To/Too/Toh	Dao	Do/To
+32	姜	Jiang	Chiang	Keung	Keong		Khiang/Kiang	Giang	Kang/Gang
+33	戚	Qi	Chi	Chik	Chek				Cheok
+34	谢	Xie	Hsieh	Tse	Che	Cheah / Tay / Chia	Cheah / Chiah / Chia / Seah / Sia / See	Ta	Sa
+35	邹	Zou	Tsou	Chau / Chow	Chao	Chew/Chou/Chu			
+36	喻	Yu	Yu	Yu	U		Yu/Yho/Yuh		You/Yu
+37	柏	Bai	Pai	Pak	Pak				
+38	水	Shui	Shui	Sui	Soi		Shu/Tshui		
+39	窦	Dou	Tou	Tau	Tao				
+40	章	Zhang	Chang	Cheung	Cheong		Cheong/Chong/Teo/Tiong/Tong		
+[编辑] 百家姓41-80
+中文	中國大陸	台灣	香港	澳門	新加坡	馬來西亞	越南	韩国
+41	云	Yun	Yun	Wan	Wan		Woon/Wun/Yun/Yung		
+42	苏	Su	Su	So	Sou	Soh	Soh / Saw / Soo	To
+43	潘	Pan	Pan	Poon / Pun	Pun	Phua	Phua / Pan / Pang / Phang	Phan	Ban
+44	葛	Ge	Ko	Kot					Gal
+45	奚	Xi	Hsi	Hai	Kai				Hae
+46	范	Fan	Fan	Fan	Fan		Fung / Fam / Fang / Hwang	Pham	Bum
+47	彭	Peng	Peng	Pang	Pang	Pang	Peng/Pang/Phang		Paeng
+48	郎	Lang	Lang	Long	Long			Lang	
+49	鲁	Lu	Lu	Lo	Lou	Loo	Loo/Loh/Lu		Noh
+50	韦	Wei	Wei	Wai	Wai		Wai/Wei/Vei	Vi	
+51	昌	Chang	Chang	Cheung	Cheong		Cheong/Chang/Cang	Xuong	
+52	马	Ma	Ma	Ma	Ma		Beh / Mah / Mha / Ma	Ma	Ma
+53	苗	Miao	Miao	Miu	Mio				
+54	凤	Feng	Feng	Fung	Fong		Fong		
+55	花	Hua	Hua	Fa	Fa		Faa/Fah/Fha	Hoa	
+56	方	Fang	Fang	Fong	Fong		Pung / Fang / Fong / Phun / Huong	Phuong	Bang
+57	俞	Yu	Yu	Yu	U		Je / Yii		You/Yu
+58	任	Ren	Jen	Yam	Iam		Yam/Ngam/Yim/Ngieng/Ngiam	Nham	Rim/Yim
+59	袁	Yuan	Yuan	Yuen	Un / Iun		Yuan / Yuen / Ngen	Vien	Won
+60	柳	Liu	Liu	Lau	Lao		Liew/Liu/Lew	Lieu	You/Yu/Ryu
+61	酆	Feng	Feng	Fung	Fong				
+62	鮑	Bao	Pao	Pau	Pao				
+63	史	Shi	Shih	Sze	Si				Sa
+64	唐	Tang	Tang	Tong	Tong		Thang / Thong / Tang / Tong / Thong	Duong	
+65	費讀「秘」	Pei	Pei	Pei	Pai				
+66	廉	Lian	Lien	Lim	Lim				
+67	岑	Cen	Tsen	Sum / Shum	Sam	Sim			
+68	薛	Xue	Hsueh	Sit	Sit		Sik / Sit / Silk		Seol/Sul
+69	雷	Lei	Lei	Lui	Loi		Lui / Looi / Lewe / Lei		
+70	賀	He	Ho	Ho	Ho		Hor/Hoo		
+71	倪	Ni	Ni	Ngai	Ngai		Geh / Nga / Ngam		
+72	湯	Tang	Tang	Tong	Tong		Thong / Tang / Thang		
+73	滕	Teng	Teng	Tang	Tang			Thang	
+74	殷	Yin	Yin	Yan	Ian		Yam / Ngam		
+75	罗	Luo	Lo	Law / Lo	Lo		Lo / Lau / Low / Loh	La	Rah/Na
+76	毕	Bi	Pi	But	Pat			Tat	
+77	郝	Hao	Hao	Kok					
+78	邬	Wu	Wu	Wu	Vu / Wu		Woo / Voo / Woh / Wu / Vu	O	
+79	安	An	An	On	On			An	An / Ahn
+80	常	Chang	Chang	Sheung	Seong				
+[编辑] 百家姓81-120
+中文	中國大陸	台灣	香港	澳門	新加坡	馬來西亞	越南	韩国
+81	乐 讀「洛」或「惡」	Yue	Yueh	Lok/ Ok	Lok/ Ok			
+82	于	Yu	Yu	Yu	U				
+83	时	Shi	Shih	See / Sze	Si				
+84	傅	Fu	Fu	Foo	Fu		Fu/Foo/Foh		
+85	皮	Pi	Pi	Pei	Pei				
+86	卞	Bian	Pien	Pin	Pin				Byun
+87	齐	Qi	Chi	Chai	Chai				
+88	康	Kang	Kang	Hong	Hong				Gang/Kang
+89	伍	Wu	Wu	Ng	Ng	Ng	Ng/Ngo/Ngoh/Wu/Wuh/Woo		
+90	余	Yu	Yu	Yu	U		Yee/Tsia/Tse		
+91	元	Yuan	Yuan	Yuen	Un / Iun			
+92	卜	Bu	Pu	Puk			Pok/Puu		
+93	顾	Gu	Ku	Koo	Ku		Koe		
+94	孟	Meng	Meng	Mang	Mang		Mang/Meng		Maeng
+95	平	Ping	Ping	Ping	Peng				
+96	黄	Huang	Huang	Wong	Vong / Wong		Bong / Boong / Ng / Ong / Ooi / Wong / Wee		Hwang
+97	和	He	Ho	Wo	Vo		Hoo/Woh/Woo/Wo		Hwa
+98	穆	Mu	Mu	Muk					
+99	萧	Xiao	Hsiao	Shiu / Siu	Sio		Seow/Siew/Siau/Siaw/Sew/Siu/Seu		
+100	尹	Yin	Yin	Wan	Wan				Yoon
+101	姚	Yao	Yao	Yiu	Io	Yeo	Yeo / Yeoh / Yew / Yow		
+102	邵	Shao	Shao	Siu / Shiu	Sio	Shaw	Shao/Shaw/Sao/Shau		
+103	湛	Zhan	Chan	Cham					
+104	汪	Wang	Wang	Wong	Vong / Wong		Wang/Wong/Vang		
+105	祁	Qi	Chi	Kei					
+106	毛	Mao	Mao	Mo	Mou		Bo / Boo / Moh / Moo		Mo
+107	禹	Yu	Yu	Yu	U				
+108	狄	Di	Ti	Tik / Dick	Tek				
+109	米	Mi	Mi	Mai	Mai				
+110	贝	Bei	Pei	Pui	Pui				
+111	明	Ming	Ming	Ming	Meng				Myeong /Myung
+112	臧	Zang	Tsang	Chong					
+113	计	Ji	Chi	Kai	Kai				
+114	伏	Fu	Fu	Fuk	Fok				
+115	成	Cheng	Cheng	Shing / Sing	Seng		Sang/Shang//Tshan/Tshang		Sung/ Seong
+116	戴	Dai	Tai	Tai	Tai		Tai/Thai/Dai/Dhai		
+117	谈	Tan	Tan	Tam	Tam				
+118	宋	Song	Sung	Sung	Song	Song	Shong/Song/Sung		Song
+119	茅	Mao	Mao	Mau	Mao				
+120	庞	Pang	Pang	Pong	Pong		Phong/Pong/Pang		
